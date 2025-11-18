@@ -96,7 +96,4 @@ Proyecto académico — CIBERTEC 2025
 
 ---
 
-## 📝 Licencia
-MIT (o la que prefieras). Añade un archivo LICENSE si quieres publicar el proyecto públicamente.
-
 ¡Gracias por revisar OjitosInsanos! Si quieres que lo deje aún más elegante (badges, demo en GitHub Pages, o un CONTRIBUTING.md), lo preparo y lo subo.
