@@ -37,22 +37,22 @@ Archivo txt — Donde se almacena la informacion de las compras.
 📸 Capturas del Sistema
 
 Inicio
-![alt text](image.png)
+<img width="1365" height="641" alt="image" src="https://github.com/user-attachments/assets/81e43c59-e952-472c-99fa-61cee8360b69" />
 
 Ofertas
-![alt text](image-1.png)
+<img width="1366" height="642" alt="image" src="https://github.com/user-attachments/assets/ece22242-7859-471c-8ee5-9d31c07792b6" />
 
 Juegos
-![alt text](image-2.png)
+<img width="1366" height="641" alt="image" src="https://github.com/user-attachments/assets/b7cd7781-4145-42be-b4ce-ec073761d9b3" />
 
 SobreNosotros
-![alt text](image-5.png)
+<img width="1366" height="640" alt="image" src="https://github.com/user-attachments/assets/888808a9-8923-49d2-8a8e-308cb81daa4f" />
 
 Contacto
-![alt text](image-6.png)
+<img width="1365" height="641" alt="image" src="https://github.com/user-attachments/assets/7844c72a-6bd2-44ae-886b-91649aadf23c" />
 
 guardarCarrito
-![alt text](image-3.png)
+<img width="1366" height="643" alt="image" src="https://github.com/user-attachments/assets/e98c7d3f-3179-4e91-80cc-6261ef7d9af5" />
 
 Carrito_OjitoInsano.txt
-![alt text](image-4.png)
+<img width="907" height="518" alt="image" src="https://github.com/user-attachments/assets/35d6eca4-f75e-426b-ba35-b7fcee2409ec" />
