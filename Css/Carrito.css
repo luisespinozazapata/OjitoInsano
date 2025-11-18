@@ -1,0 +1,174 @@
+/*Estilo base del carrito gamer*/
+.carro {
+    width: 35px;
+    height: 35px;
+    padding: 0 20px;
+    cursor: pointer;
+    filter: drop-shadow(0 0 8px #4cc9f0);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.carro:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 15px #7209b7);
+}
+
+/*Contenedor del carrito*/
+.carritoNav {
+    display: none;
+    text-align: center;
+}
+
+/*Efecto al pasar el mouse*/
+#Contenedor nav .compras:hover > .carritoBuy {
+    display: block;
+    width: 385px;
+    height: 500px;
+    position: absolute;
+    right: 10px;
+    background: rgba(10, 10, 15, 0.95);
+    border: 2px solid #4cc9f0;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #7209b7, inset 0 0 10px #4cc9f0;
+    list-style: none;
+    backdrop-filter: blur(5px);
+    animation: aparecer 0.4s ease forwards;
+}
+
+/*Animacion suave*/
+@keyframes aparecer {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/*Cabecera del carrito*/
+#Contenedor nav .compras:hover .carritoNav {
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 90px 85px 60px 80px 10px;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 10px auto 5px;
+    gap: 7px;
+    border-bottom: 1px solid #4cc9f0;
+    color: #fff;
+    text-shadow: 0 0 10px #4cc9f0;
+}
+
+/*Elementos del carrito*/
+.carritoBuy li {
+    list-style: none;
+    font-size: 17px;
+    color: #fff;
+}
+
+.Compra:hover .carritoBuy {
+    display: block;
+}
+
+/*Contenido del carrito*/
+.carritoBuy .Productos {
+    max-height: 440px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 5px;
+}
+
+/*Scroll personalizado dentro del carrito*/
+.carritoBuy .Productos::-webkit-scrollbar {
+    width: 6px;
+}
+.carritoBuy .Productos::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #4cc9f0, #7209b7);
+    border-radius: 3px;
+}
+.carritoBuy .Productos::-webkit-scrollbar-track {
+    background: #111;
+}
+
+/*Productos*/
+.Productos div {
+    display: none;
+    text-align: center;
+    padding: 8px 5px;
+    border-bottom: 2px solid rgba(114, 9, 183, 0.3);
+    margin: 0 5px 5px;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+#Contenedor nav .compras:hover .carritoBuy > .Productos div {
+    display: grid;
+    grid-template-columns: 80px 95px 95px 50px 30px;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.Productos div:hover {
+    background: rgba(76, 201, 240, 0.1);
+    box-shadow: 0 0 10px #4cc9f0;
+}
+
+.Productos img {
+    width: 65px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #7209b7;
+}
+
+.Productos p {
+    font-size: 16px;
+    margin: 0 5px;
+    text-align: center;
+    padding: 5px 0;
+    color: #fff;
+    text-shadow: 0 0 5px #4cc9f0;
+}
+
+.Productos p:last-child span {
+    font-size: 18px;
+    color: #4cc9f0;
+}
+
+/*Boton de eliminar*/
+.Borrar {
+    font-weight: bold;
+    cursor: pointer;
+    color: #ff4d6d;
+    transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.Borrar:hover {
+    transform: scale(1.3);
+    color: #ff85a1;
+    text-shadow: 0 0 10px #ff4d6d;
+}
+
+/*Total del carrito*/
+.Productos .totalCarrito {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0 0 10px #7209b7;
+}
+
+.Productos .totalCarrito button {
+    background: linear-gradient(90deg, #4cc9f0, #7209b7);
+    border: none;
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 15px #4cc9f0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Productos .totalCarrito button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #7209b7;
+}

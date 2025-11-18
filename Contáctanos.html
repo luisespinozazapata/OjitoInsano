@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OjitoInsano</title>
+    <link rel="stylesheet" href="Css/EstiloEnGeneral.css">
+    <link rel="stylesheet" href="Css/Carrito.css">
+</head>
+
+<body>
+    <div id="Contenedor">
+        <header>
+            <a href="Inicio.html"><img class="Logo" src="Img/Titulo.png" alt="Logo"></a>
+            <div class="barra">
+                <ul class="menu">
+                    <li>
+                        <a href="Ofertas.html">Ofertas</a>
+                    </li>
+                    <li>
+                        <a href="Juegos.html">Juegos</a>
+                        <ul class="submenu">
+                            <li><a href="Juegos.html#Accion">Accion</a></li>
+                            <li><a href="Juegos.html#Aventura">Aventura</a></li>
+                            <li><a href="Juegos.html#Casuales">Casuales</a></li>
+                            <li><a href="Juegos.html#Estrategia">Estrategia</a></li>
+                            <li><a href="Juegos.html#Rol">Rol</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Sobre_Nosotros.html">Sobre nosotros</a>
+                    </li>
+                    <li>
+                        <a href="Contáctanos.html">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+            <nav id="carrito">
+                <div class="compras">
+                    <img class="Carro" src="Img/Carritro.png" alt="Carro">
+                    <div class="carritoBuy">
+                        <ul class="carritoNav">
+                            <li>Producto</li>
+                            <li>Nombre</li>
+                            <li>Precio</li>
+                            <li>Cantidad</li>
+                            <li>ㅤ</li>
+                        </ul>
+                        <div class="Productos">
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div class="contenedor">
+                <div class="marcoContacto">
+                    <h1 class="main-title">Contáctanos</h1>
+                    <form class="formulario" id="form-contacto">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" placeholder="Ingresa tu nombre" required>
+
+                        <label for="email">Correo</label>
+                        <input type="email" id="email" placeholder="Ingresa tu email" required>
+
+                        <label for="telefono">Teléfono</label>
+                        <input type="text" id="telefono" placeholder="Ingresa tu teléfono" required>
+
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" class="Mensaje"
+                            placeholder="Ingrese el mensaje&#10;Máximo 200 caracteres" maxlength="200"
+                            required></textarea>
+
+                        <button class="enviar" type="submit">Enviar</button>
+                    </form>
+                </div>
+        </section>
+        <footer>
+            <p>
+                Derecho a una buena compra y alta calidad
+            </p>
+            <div>
+                <img src="Img/Instagram.png" alt="Instagram">
+                <img src="Img/facebook.png" alt="Facebook">
+                <img src="Img/whatsapp.png" alt="whatsapp">
+            </div>
+        </footer>
+    </div>
+    <script src="js/Carrito.js"></script>
+    <script src="js/Sobre_nosotros.js"></script>
+</body>
+
+</html>

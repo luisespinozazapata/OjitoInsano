@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/EstiloEnGeneral.css">
+    <link rel="stylesheet" href="Css/Carrito.css">
+    <title>OjitoInsano</title>
+</head>
+
+<body>
+    <div id="Contenedor">
+        <header>
+            <a href="Inicio.html"><img class="Logo" src="Img/Titulo.png" alt="Logo"></a>
+            <div class="barra">
+                <ul class="menu">
+                    <li>
+                        <a href="Ofertas.html">Ofertas</a>
+                    </li>
+                    <li>
+                        <a href="Juegos.html">Juegos</a>
+                        <ul class="submenu">
+                            <li><a href="Juegos.html#Accion">Accion</a></li>
+                            <li><a href="Juegos.html#Aventura">Aventura</a></li>
+                            <li><a href="Juegos.html#Casuales">Casuales</a></li>
+                            <li><a href="Juegos.html#Estrategia">Estrategia</a></li>
+                            <li><a href="Juegos.html#Rol">Rol</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Sobre_Nosotros.html">Sobre nosotros</a>
+                    </li>
+                    <li>
+                        <a href="Contáctanos.html">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+            <nav id="carrito">
+                <div class="compras">
+                    <img class="Carro" src="Img/Carritro.png" alt="Carro">
+                    <div class="carritoBuy">
+                        <ul class="carritoNav">
+                            <li>Producto</li>
+                            <li>Nombre</li>
+                            <li>Precio</li>
+                            <li>Cantidad</li>
+                            <li>ㅤ</li>
+                        </ul>
+                        <div class="Productos">
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="Ventas">
+            <div class="GeneralJuegos" id="lista_de_prod">
+                <h2 id="Accion">Acción</h2>
+                <div class="AllGames">
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/GTA.jpg" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>Grand Theft Auto V Enhanced</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="1">Comprar</button>
+                                <p class="dinero">S/.110.90</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/ELDEN_RING_NIGHTREIGN.jpg" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>ELDEN RING NIGHTREIGN</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="2">Comprar</button>
+                                <p class="dinero">S/.120.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/Resident_Evil_4.jpg" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>Resident Evil 4</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="3">Comprar</button>
+                                <p class="dinero">S/.109.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 id="Aventura">Aventura</h2>
+                <div class="AllGames">
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/Subnautica.jpg" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>Subnautica</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="4">Comprar</button>
+                                <p class="dinero">S/.110.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/Grounde_2.jpg" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>Grounde 2</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="5">Comprar</button>
+                                <p class="dinero">S/.109.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/Far_cry_6.jpg" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>Far cry 6</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="6">Comprar</button>
+                                <p class="dinero">S/.199.99</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/Black_myth_wukong.jpg" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>Black Myth: Wukong</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="7">Comprar</button>
+                                <p class="dinero">S/.199.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/Raft.jpg" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>Raft</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="8">Comprar</button>
+                                <p class="dinero">S/.49.95</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/Lies_of_P.png" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>Lies of P</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="9">Comprar</button>
+                                <p class="dinero">S/.170.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 id="Casuales">Casuales</h2>
+                <div class="AllGames">
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/Coral_island.webp" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>Coral island</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="10">Comprar</button>
+                                <p class="dinero">S/.70.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/garden_of_witches.jpg" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>garden of witches</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="11">Comprar</button>
+                                <p class="dinero">S/.41.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/Unpacking.jpg" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>Unpacking</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="12">Comprar</button>
+                                <p class="dinero">S/.41.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/Stardew_Valley.jpg" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>Stardew Valley</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="13">Comprar</button>
+                                <p class="dinero">S/.39.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 id="Estrategia">Estrategia</h2>
+                <div class="AllGames">
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/Sid_Meier's_Civilization_VII.jpg" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>Sid Meier's Civilization VII</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="14">Comprar</button>
+                                <p class="dinero">S/.220.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/Age_of_Empires_IV.jpg" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>Age of Empires IV: Anniversary Edition</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="15">Comprar</button>
+                                <p class="dinero">S/.74.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/Cities_Skylines_II.jpg" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>Cities: Skylines II</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="16">Comprar</button>
+                                <p class="dinero">S/.173.95</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/Balatro.jpg" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>Balatro</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="17">Comprar</button>
+                                <p class="dinero">S/.33.50</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/Liar's_bar.png" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>Liar's bar</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="18">Comprar</button>
+                                <p class="dinero">S/.17.5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 id="Rol">Rol</h2>
+                <div class="AllGames">
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/Final_fantasy_xiv.jpeg" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>FINAL FANTASY XIV Online</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="19">Comprar</button>
+                                <p class="dinero">S/.56.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/MONSTER_HUNTER_RISE.jpg" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>MONSTER HUNTER RISE</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="20">Comprar</button>
+                                <p class="dinero">S/.109.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="JuegoMarco">
+                        <img src="Img/Juegos/Age_of_Wonders_4.png" alt="">
+                        <div class="infoHei">
+                            <div class="info">
+                                <h3>Age of Wonders 4</h3>
+                            </div>
+                            <div class="precio">
+                                <button class="agregar_carrito" data-id="21">Comprar</button>
+                                <p class="dinero">S/.173.95</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>
+                Derecho a una buena compra y alta calidad
+            </p>
+            <div>
+                <img src="Img/Instagram.png" alt="Instagram">
+                <img src="Img/facebook.png" alt="Facebook">
+                <img src="Img/whatsapp.png" alt="whatsapp">
+            </div>
+        </footer>
+    </div>
+    <script src="js/Carrito.js"></script>
+</body>
+
+</html>
